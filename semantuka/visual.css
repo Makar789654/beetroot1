@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Optima", sans-serif;
+    background-color: #a0cd98;
+    padding: 50px 100px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  h2 {
+    color: #B60711;
+    padding: 20px 0;
+  }
+  
