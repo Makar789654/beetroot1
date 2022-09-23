@@ -1,0 +1,40 @@
+
+body {
+    background: #F6F6F6; 
+    text-align: center;
+    font-family: 'Open Sans';
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    isolation: isolate;
+    justify-content: center;
+  }
+    header, div.home, div.skills {background-color: #e5e5e5;}
+    .column {
+        float: left;
+        width: 25%;}
+    .row {
+        display: table;
+        clear: both;}   
+    ul li {
+           display: inline-block; }
+   h2{ text-align: left;
+    color:#070707;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;}
+    p {color:#070707;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px; }
+    h3 {font-weight: 700;
+      font-size: 34px;
+      line-height: 46px;
+      color:#070707;}
+  .vector1 {background-color: #252653; display: inline-block}
+  .vector3 {background-color: #261300; display: inline-block}
+  .group {background-color: #252653; display: inline-block}
+  .group2 {background-color: #FFFFFF; display: inline-block}
+
