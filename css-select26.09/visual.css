@@ -14,10 +14,11 @@
 h1, h2, h3, h4 {color:#FF8984;text-align: center}
 li:nth-child(5) {background-color: aqua;}
 li:first-of-type{background: azure;}
+.aftext2 + .aftext3 {background-color: blanchedalmond;}
 li.aftext1:after { content: "(for the next lessons about CSS)"}
 li.aftext2:after { content: "(for more CSS manipulations)"}
 li.aftext3:after { content: "because they are awesome)"}
 li.aftext4:after { content: "(hm... they always dissapear)"}
 li.aftext5:after { content: "(for my friends)"}
-* {transition: 0.7s opacity, 0.55s visibility;}
+li {transition: 0.7s opacity, }
 li:hover {background-color: beige;}
