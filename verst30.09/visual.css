@@ -270,17 +270,12 @@ text-decoration: none;
     padding-bottom: 20px;
     margin: 0;
   }
-  .footer-form-input {
+  .footer-input {
     width: 360px;
     height: 50px;
     font-size: 16px;
     margin-bottom: 20px;
   }
-  .footer-line {
-    display: block;
-    border-bottom: 1px solid #bcd0e57f;
-    max-width: 1230px;
-    margin: 0 auto;
-  }
+
 
   
