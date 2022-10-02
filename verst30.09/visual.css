@@ -150,3 +150,137 @@ text-decoration: none;
 .hero-section .container {
     overflow: hidden;
 }
+.design-tools {
+    padding: 0 0 74px;
+    margin: 0 0 100px;
+    background-repeat: no-repeat;
+    background-image: url("img/oval.svg");
+    background-position: 50% 50%;
+  }
+  .design-tools .title-holder {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .design-tools .row {
+    overflow: hidden;
+    margin: 0 -20px;
+  }
+  .design-tools .col {
+    width: 25%;
+    float: left;
+    padding: 0 20px;
+  }
+  .design-tools .btn-holder {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .icon-holder {
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  .design-section {
+    margin-bottom: 100px;
+  }
+  .design-section .container {
+    overflow: hidden;
+  }
+  .design-section .img-holder {
+    float: right;
+    width: 50%;
+  }
+  .design-section .text-col {
+    float: left;
+    width: 50%;
+    padding-right: 110px;
+    padding-top: 20px;
+  }
+  .design-section .text-col h2 {
+    margin-bottom: 20px;
+  }
+  .design-section .text-holder strong {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .design-section.design-section-revert .img-holder {
+    float: left;
+  }
+  .product-manager-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .product-manager-list li img {
+    display: inline;
+    width: 10%;
+    float: left;
+  }
+  .product-manager-list li p {
+    display: inline;
+    width: 90%;
+    float: left;
+    padding: 0 10px;
+  }
+  .footer-list {
+    list-style: none;
+    display: inline;
+    float: left;
+    margin: 0;
+    padding-left: 102px;
+  }
+  .footer-list li:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2f281e;
+    padding-bottom: 30px;
+  }
+  .footer .container {
+    padding: 70px 0;
+    overflow: hidden;
+  }
+  .footer-list li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-bottom: 15px;
+  }
+  .footer-list .footer-list-link {
+    text-decoration: none;
+    color: #544837;
+  }
+  .logo-holder.footer {
+    display: inline;
+    float: left;
+  }
+  .sign-up-form {
+    display: inline;
+    max-width: 360px;
+    float: left;
+    padding-left: 102px;
+  }
+  .sign-up-form p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .footer-form-input {
+    width: 360px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .footer-line {
+    display: block;
+    border-bottom: 1px solid #bcd0e57f;
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+
+  
