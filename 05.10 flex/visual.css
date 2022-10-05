@@ -233,13 +233,13 @@ text-decoration: none;
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;  
     /* overflow: hidden; */
   }
-  .product-list li img {
+  /* .product-list li img {
     float: left;
-  }
+  } */
   /* .product-list li p {
      float: left; 
     padding: 0 10px;
@@ -273,11 +273,11 @@ text-decoration: none;
     text-decoration: none;
     color: #544837;
   }
-  .logo-holder.footer {
+  /* .logo-holder.footer {
 
-    /* display: inline;
-    float: left; */
-  }
+    display: inline;
+    float: left;
+  } */
   .sign-up-form {
     /* display: inline; */
     max-width: 360px;
