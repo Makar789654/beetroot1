@@ -1,0 +1,105 @@
+body {
+    text-align: left;
+    color: #000000;
+    box-sizing: border-box;
+  }
+  a {
+    color: #000000;
+  }
+  a:hover {
+    color: #aaa
+  }
+  .body-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .header{
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .language-mode {
+    display: inline-block;
+    float: left;
+    font-family: "tourney";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding: 20px 50px 18px 0;
+  }
+  .doc:after {
+    content: "/";
+    padding: 13px;
+  }
+  
+  .logo-holder {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: right;
+  }
+  .main{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  section {
+    margin: 70px 0;
+  }
+  h2 {
+    font-family: "francois_one";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-right: 10px;
+    margin: 0;
+    margin-block: 0;
+    display: inline;
+  }
+  sup {
+    display: inline;
+    font-family: "farro";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    vertical-align: super;
+  }
+  p {
+    font-family: "pt_sans";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: justify;
+    padding-top: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  p .ital-font {
+    font-family: "pt_sans";
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+  }
+  mark {
+    font-family: "hind";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    background-color: #c9c9c9;
+  }
+  
