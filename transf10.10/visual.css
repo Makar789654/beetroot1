@@ -1,0 +1,162 @@
+  *,
+  *::after,
+  *::before {
+  box-sizing: border-box;
+  }
+  body {
+    text-align: left;
+    color: #000000;
+  }
+  .body-cont {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+
+  }
+  a {
+    color: #000000;
+  }
+  a:hover {
+    color: #aaa
+  }
+
+  .header {
+    position: sticky;
+    align-items: center;
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    background-color: white;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .lang {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "tourney";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    padding: 20px 15px 18px 0;
+  }
+  .docwho {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "staatliches";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding: 15px 50px 18px 0;
+  }
+  .logo-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+  .doc:after {
+    content: "/";
+    padding: 13px;
+  }
+  
+  .main{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .side-bar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    position: relative;
+  }
+  .bar-nav-item {
+    padding-bottom: 70px;
+    text-transform: uppercase;
+    font-family: "francois_one";
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000000;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    display: flex;
+    width: 70%;
+  }
+  .side-bar-nav {
+    max-width: 385px;
+    height: max-content;
+    padding: 10px;
+    position: sticky;
+    top: 80px;
+    list-style: none;
+  }
+
+  h2 {
+    font-family: "francois_one";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-right: 10px;
+    margin: 0;
+    margin-block: 0;
+    display: inline;
+  }
+  sup {
+    display: inline;
+    font-family: "farro";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    vertical-align: super;
+  }
+  p {
+    font-family: "pt_sans";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: justify;
+    padding-top: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  p .ital-font {
+    font-family: "pt_sans";
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+  }
+  mark {
+    font-family: "hind";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    background-color: #c9c9c9;
+  }
