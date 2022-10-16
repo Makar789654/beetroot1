@@ -183,9 +183,16 @@
   width: 270px; 
   height: 180px; 
   margin: 15px 15px;
+  /* animation: rotate 3s infinite; */
+}
+@keyframes rotate {
+  0% {
+    transform: rotateX(180deg);
+  }
 }
 .facebook:hover {
   background: url(src/facebookq.png);
+  animation: rotate 2s ;
 }
 .instagram {
   background: url(src/instagram.png);
@@ -196,6 +203,7 @@
 }
 .instagram:hover {
   background: url(src/instagramq.png);
+  animation: rotate 2s ;
 }
 .shopify {
   background: url(src/shopify.png);
@@ -206,6 +214,7 @@
 }
 .shopify:hover {
   background: url(src/shopifyq.png);
+  animation: rotate 2s ;
 }
 .skype {
   background: url(src/skype.png);
@@ -216,6 +225,7 @@
 }
 .skype:hover {
   background: url(src/skypeq.png);
+  animation: rotate 2s ;
 }
 .pinterest {
   background: url(src/pinterest.png);
@@ -226,6 +236,7 @@
 }
 .pinterest:hover {
   background: url(src/pinterestq.png);
+  animation: rotate 2s ;
 }
 .wix {
   background: url(src/wix.png);
@@ -236,6 +247,7 @@
 }
 .wix:hover {
   background: url(src/wixq.png);
+  animation: rotate 2s ;
 }
 .saleforse {
   background: url(src/saleforse.png);
@@ -246,6 +258,7 @@
 }
 .saleforse:hover {
   background: url(src/saleforseq.png);
+  animation: rotate 2s ;
 }
 .soundcloud {
   background: url(src/soundcloud.png);
@@ -255,7 +268,9 @@
  margin: 15px 15px;
 }
 .soundcloud:hover {
-  background: url(src/soundcloudq.png);}
+  background: url(src/soundcloudq.png);
+  animation: rotate 2s ;
+}
 .logos {
   display: flex;
   flex-wrap: wrap;
