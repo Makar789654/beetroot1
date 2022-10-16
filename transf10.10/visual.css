@@ -109,6 +109,14 @@
     top: 80px;
     list-style: none;
   }
+  .bg-picture {
+    display: inline-block;
+    width: 760px;
+    max-width: 100%;
+    position: fixed;
+    z-index: -1;
+    margin-left: 277px;
+  }
 
   h2 {
     font-family: "francois_one";
@@ -139,6 +147,7 @@
     letter-spacing: 0em;
     text-align: justify;
     padding-top: 40px;
+    padding-bottom: 40px;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
@@ -160,3 +169,95 @@
     letter-spacing: 0em;
     background-color: #c9c9c9;
   }
+  .blackline {
+    max-width: 100px;
+    display: block;
+    border-top: 8px solid #000000;
+    margin-bottom: 20px;
+  }
+
+
+.facebook {
+  background: url(src/facebook.png);
+  display: flex;
+  width: 270px; 
+  height: 180px; 
+  margin: 15px 15px;
+}
+.facebook:hover {
+  background: url(src/facebookq.png);
+}
+.instagram {
+  background: url(src/instagram.png);
+  display: flex;
+  width: 270px; 
+  height: 180px; 
+  margin: 15px 15px;
+}
+.instagram:hover {
+  background: url(src/instagramq.png);
+}
+.shopify {
+  background: url(src/shopify.png);
+  display: block;
+  width: 270px; 
+  height: 180px; 
+  margin: 15px 15px;
+}
+.shopify:hover {
+  background: url(src/shopifyq.png);
+}
+.skype {
+  background: url(src/skype.png);
+  display: block;
+  width: 270px; 
+  height: 180px; 
+  margin: 15px 15px;
+}
+.skype:hover {
+  background: url(src/skypeq.png);
+}
+.pinterest {
+  background: url(src/pinterest.png);
+  display: block;
+  width: 270px; 
+  height: 180px; 
+  margin: 15px 15px;
+}
+.pinterest:hover {
+  background: url(src/pinterestq.png);
+}
+.wix {
+  background: url(src/wix.png);
+  display: block;
+  width: 270px; 
+  height: 180px; 
+  margin: 15px 15px;
+}
+.wix:hover {
+  background: url(src/wixq.png);
+}
+.saleforse {
+  background: url(src/saleforse.png);
+  display: block;
+  width: 270px; 
+  height: 180px; 
+  margin: 15px 15px;
+}
+.saleforse:hover {
+  background: url(src/saleforseq.png);
+}
+.soundcloud {
+  background: url(src/soundcloud.png);
+  display: block;
+  width: 270px; 
+  height: 180px; 
+ margin: 15px 15px;
+}
+.soundcloud:hover {
+  background: url(src/soundcloudq.png);}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+}
