@@ -120,5 +120,23 @@ right: 0;
 bottom: 0;
 z-index: 1;
 background: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%);
+transition: all ease-in-out 0.3s;
 /* transform: rotate(90deg); */
 }
+.im-holder:hover::before {
+    background: linear-gradient(
+      0deg,
+      #241f24 1.04%,
+      rgba(91, 91, 91, 0.26) 6.99%,
+      rgba(187, 186, 192, 0) 12.29%
+    );
+  }
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
