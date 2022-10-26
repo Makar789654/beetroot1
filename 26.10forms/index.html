@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="visual.css">
     <title>Form_styling</title>
 </head>
 <body>
@@ -10,23 +11,35 @@
         <div class="container">
           <form action="#" class="form" method="post">
             <h2>Create an Account</h2>
+    <div class="name">
+        <div class="first_name"> 
             <label for="name">First Name</label>
             <div class="input-holder">
                 <input class="input" type="text" id="first_name" placeholder="">
             </div>
-            <label for="name">Last Name</label>
+        </div>
+        <div class="last_name">
+            <label for="last name">Last Name</label>
             <div class="input-holder">
                 <input class="input" type="text" id="last_name" placeholder="">
             </div>
-            <label for="name">E-mail</label>
+        </div>
+    </div>
+        <div class="email"> 
+            <label for="email">E-mail</label>
             <div class="input-holder">
                 <input class="input" type="email" id="email" placeholder="">
-                <div class="text"><p>We'll never share your email with anyone else.</p>
+                <div class="text under_email"><p>We'll never share your email with anyone else.</p>
                 </div>
             </div>
-            <input type="radio" name="gender" id="male"> Male
-            <input type="radio" name="gender" id="female"> Female
-            <label for="country">Country</label>
+        </div>   
+        <div class="radio_list">
+            <input type="radio" name="radio_name" id="male"> Male
+            <input type="radio" name="radio_name" id="female"> Female
+        </div>
+        <div class="country_city">
+        <div class="country">
+        <label for="country">Country</label>
             <div class="input-holder">
                 <select name="countries" id="country">
                     <option value="Afghanistan">Afghanistan</option>
@@ -269,17 +282,24 @@
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
                 </select>
+            </div>
+            </div>    
+            <div class="city">
                 <label for="city">City</label>
             <div class="input-holder">
                 <input class="input" type="text" id="city" placeholder="">
             </div>
-            <button class="btn" type="submit">Sign Up</button>
-            </div>
+             </div>
+             </div>
+                <div class="button">
+                    <button class="btn" type="submit">Sign Up</button></div>
             <div class="text"><p>By clicking the 'Sign Up' button, 
                 you confirm that you accept our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
             </div>
-            <div class="text"><p><strong>Have an account?</strong> </p></div>
-            <div class="text"><p> <a href="#">Log In?</a></p></div>
+            <div class="line"></div>
+            <div class="name_">
+              <div class="text account"><p><strong>Have an account?</strong> <a href="#">Log In</a></p></div>
+            </div>
             
             </div>
         </form>

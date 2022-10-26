@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  background: #E5E5E5
+}
+.form {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin: 0;
+  text-align: left;
+  padding: 0 6px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 570px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+.form {
+  padding: 20px 0 22px;
+  margin: 0;
+}
+.first_name .last_name .email {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 7px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #545454;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+.first_name {
+    width: 50%;
+    padding: 6px 6px;
+}
+.last_name {
+    width: 50%;
+    padding: 6px 6px;
+}
+.email {
+    width: 100%;
+    padding: 6px 6px;
+}
+.country_city {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 18px;
+}
+.country {
+    width: 50%;
+    padding: 0 6px;
+}
+.city {
+    width: 50%;
+    padding-bottom: 22px;
+    padding: 0 6px;
+   
+}
+select {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.radio_list {
+    padding-bottom: 20px;
+}
+
+.form .input {
+  padding: 7px 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #545454;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #545454;
+  border-radius: 6px;
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  background-color: #007bff;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  padding: 8px 6px;
+}
+.button {
+    padding: 0 6px;
+}
+.text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #969696;
+}
+.text a {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #007bff;
+  text-decoration: none;
+}
+.under_email {
+    text-align: left;
+    width: 100%;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid #545454;
+}
+.name_ {
+    justify-content: center;
+    display: flex;
+}
+
