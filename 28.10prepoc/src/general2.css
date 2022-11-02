@@ -1,0 +1,50 @@
+.btn {
+  width: 100%;
+  background-color: #007bff;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  padding: 8px 6px;
+}
+
+.button {
+  padding: 0 6px;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #969696;
+}
+
+.text a {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.under_email {
+  text-align: left;
+  width: 100%;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid #545454;
+}
+
+.name_ {
+  justify-content: center;
+  display: flex;
+}
