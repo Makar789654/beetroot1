@@ -5,6 +5,53 @@
           box-sizing: border-box;
 }
 
+body {
+  margin: 0 135px;
+  font-family: "Roboto", sans-serif;
+  background: #FFFFFF;
+  max-width: 1440px;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.services .design, .services .ecommerce, .services .aplication {
+  max-width: 370px;
+  max-height: 340px;
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+  padding: 40px;
+}
+.services .design:hover {
+  border: 1px solid #3DB370;
+}
+.services .design:hover .icon {
+  background-position: -6px -64px;
+}
+.services .ecommerce:hover {
+  border: 1px solid #3DB370;
+}
+.services .ecommerce:hover .icon.icon-store {
+  background-position: -96px -64px;
+}
+.services .aplication:hover {
+  border: 1px solid #3DB370;
+}
+.services .aplication:hover .icon.icon-phone {
+  background-position: -176px -64px;
+}
+.services a {
+  color: #3DB370;
+}
+
+.ecommerce {
+  margin: 0 30px;
+}
+
 .icon {
   background-image: url("icons-sprite.svg");
   cursor: pointer;
@@ -12,26 +59,71 @@
   width: 64px;
   height: 65px;
   background-position: -6px -5px;
-  -webkit-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
-}
-
-.icon:hover {
-  background-position: -6px -64px;
+  -webkit-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s;
 }
 
 .icon.icon-store {
   background-position: -96px -5px;
 }
 
-.icon.icon-store:hover {
-  background-position: -96px -64px;
-}
-
 .icon.icon-phone {
-  background-position: -186px -5px;
+  background-position: -176px -5px;
 }
 
 .icon.icon-phone:hover {
-  background-position: -186px -64px;
+  background-position: -176px -64px;
+}
+
+.footer {
+  max-width: 1440px;
+  margin: 25px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #16133D;
+}
+.footer .logo {
+  margin: 0 6px;
+  color: #EFEEF3;
+}
+.footer .logoholder {
+  margin: 15px 6px;
+}
+
+.sociallist {
+  background: #16133D;
+}
+
+li {
+  display: inline;
+  width: 38px;
+  height: 38px;
+  background: #EFEEF3;
+  border-radius: 5px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 10px;
+}
+
+.header {
+  max-width: 1440px;
+  margin: 25px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  justify-items: flex-start;
+}
+.header .logo {
+  margin: 0 6px;
+}
+.header .logoholder {
+  margin: 15px 6px;
 }

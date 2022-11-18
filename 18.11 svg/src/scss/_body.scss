@@ -1,6 +1,42 @@
 *,
 *::before,
-*::after { box-sizing: border-box; }
+*::after { box-sizing: border-box;
+ }
+
+body { margin: 0 135px;
+    font-family: "Roboto", sans-serif;
+     background: #FFFFFF;
+    max-width: 1440px;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    .design, .ecommerce, .aplication {
+        max-width: 370px;
+        max-height: 340px;
+        border: 1px solid #E5EAF4;
+        border-radius: 8px;
+        padding: 40px;
+    }
+    .design:hover {
+        border: 1px solid #3DB370;
+        .icon {
+            background-position: -6px -64px;}}
+    .ecommerce:hover {
+        border: 1px solid #3DB370;
+        .icon.icon-store {
+            background-position: -96px -64px;
+        }}
+    .aplication:hover {
+        border: 1px solid #3DB370;
+        .icon.icon-phone {
+            background-position: -176px -64px;
+        }}
+        a {color: #3DB370;}
+        }
+.ecommerce {
+    margin: 0 30px ;
+}
 .icon {
     background-image: url("icons-sprite.svg");
     cursor: pointer;
@@ -8,21 +44,18 @@
     width: 64px;
     height: 65px;
     background-position: -6px -5px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
+   
 }
-.icon:hover {
-    background-position: -6px -64px;
-}
+
 .icon.icon-store {
     background-position: -96px -5px;
 }
 
-.icon.icon-store:hover {
-    background-position: -96px -64px;
-}
+
 .icon.icon-phone {
-    background-position: -186px -5px;
+    background-position: -176px -5px;
 }
 .icon.icon-phone:hover {
-    background-position: -186px -64px;
+    background-position: -176px -64px;
 }

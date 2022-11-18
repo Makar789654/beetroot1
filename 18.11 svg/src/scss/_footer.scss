@@ -1,0 +1,25 @@
+.footer {max-width: 1440px;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background: #16133D;
+
+
+    
+    .logo {margin: 0 6px;
+    color: #EFEEF3;}
+    .logoholder {margin: 15px 6px;}
+}
+.sociallist {
+    background: #16133D;
+}
+li {display: inline;
+    width: 38px;
+    height: 38px;
+    background: #EFEEF3;
+    border-radius: 5px;
+    align-content: center;
+    margin-left: 10px;
+    
+}
