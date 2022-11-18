@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after { box-sizing: border-box; }
+.icon {
+    background-image: url("icons-sprite.svg");
+    cursor: pointer;
+    display: inline-block;
+    width: 64px;
+    height: 65px;
+    background-position: -6px -5px;
+    transition: all ease-in-out 0.3s;
+}
+.icon:hover {
+    background-position: -6px -64px;
+}
+.icon.icon-store {
+    background-position: -96px -5px;
+}
+
+.icon.icon-store:hover {
+    background-position: -96px -64px;
+}
+.icon.icon-phone {
+    background-position: -186px -5px;
+}
+.icon.icon-phone:hover {
+    background-position: -186px -64px;
+}
