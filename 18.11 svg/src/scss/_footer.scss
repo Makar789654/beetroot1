@@ -1,25 +1,28 @@
-.footer {max-width: 1440px;
-    margin: 25px auto;
+footer {max-width: 1440px;
+    padding: 25px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     background: #16133D;
+    margin-top: 100px;
 
 
     
-    .logo {margin: 0 6px;
+    .logo {margin: -10px 6px;
     color: #EFEEF3;}
-    .logoholder {margin: 15px 6px;}
+    .logoholder {margin: 15px 6px;
+    display: flex;
+        a {padding-top: 5px;}}
 }
-.sociallist {
-    background: #16133D;
-}
-li {display: inline;
+ul {padding-inline-start: 0px;}
+li {display: inline-block;
     width: 38px;
     height: 38px;
     background: #EFEEF3;
     border-radius: 5px;
-    align-content: center;
+    align-content: center; 
     margin-left: 10px;
-    
 }
+// li:hover {
+
+// }
+

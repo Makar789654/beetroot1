@@ -3,7 +3,7 @@
 *::after { box-sizing: border-box;
  }
 
-body { margin: 0 135px;
+body {padding: 0 135px;
     font-family: "Roboto", sans-serif;
      background: #FFFFFF;
     max-width: 1440px;
@@ -33,10 +33,11 @@ body { margin: 0 135px;
             background-position: -176px -64px;
         }}
         a {color: #3DB370;}
+    .ecommerce {
+        margin: 0 30px;
+    }
         }
-.ecommerce {
-    margin: 0 30px ;
-}
+
 .icon {
     background-image: url("icons-sprite.svg");
     cursor: pointer;

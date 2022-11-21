@@ -1,3 +1,4 @@
+@import "icomoon.css";
 *,
 *::before,
 *::after {
@@ -6,7 +7,7 @@
 }
 
 body {
-  margin: 0 135px;
+  padding: 0 135px;
   font-family: "Roboto", sans-serif;
   background: #FFFFFF;
   max-width: 1440px;
@@ -47,8 +48,7 @@ body {
 .services a {
   color: #3DB370;
 }
-
-.ecommerce {
+.services .ecommerce {
   margin: 0 30px;
 }
 
@@ -75,33 +75,38 @@ body {
   background-position: -176px -64px;
 }
 
-.footer {
+footer {
   max-width: 1440px;
-  margin: 25px auto;
+  padding: 25px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   background: #16133D;
+  margin-top: 100px;
 }
-.footer .logo {
-  margin: 0 6px;
+footer .logo {
+  margin: -10px 6px;
   color: #EFEEF3;
 }
-.footer .logoholder {
+footer .logoholder {
   margin: 15px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .logoholder a {
+  padding-top: 5px;
 }
 
-.sociallist {
-  background: #16133D;
+ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
 }
 
 li {
-  display: inline;
+  display: inline-block;
   width: 38px;
   height: 38px;
   background: #EFEEF3;

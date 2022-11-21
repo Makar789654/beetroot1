@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bzrze3');
+  src:  url('fonts/icomoon.eot?bzrze3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bzrze3') format('truetype'),
+    url('fonts/icomoon.woff?bzrze3') format('woff'),
+    url('fonts/icomoon.svg?bzrze3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 25px;
+  line-height: 1.55;
+  padding-left: 7px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dribbble-icon:before {
+  content: "\e900";
+}
+.icon-facebook-icon:before {
+  content: "\e901";
+}
+.icon-github-icon:before {
+  content: "\e902";
+}
+.icon-instagram-icon:before {
+  content: "\e903";
+}
+.icon-twitter-icon:before {
+  content: "\e904";
+}
+
+.icon-dribbble-icon:hover {
+  content: "\e900";
+  color:#3DB370;
+}
+.icon-facebook-icon:hover {
+  content: "\e901";
+  color:#3DB370;
+}
+
+.icon-github-icon:hover {
+  content: "\e902";
+  color:#3DB370;
+}
+
+.icon-instagram-icon:hover {
+  content: "\e903";
+  color:#3DB370;
+}
+.icon-twitter-icon:hover {
+  content: "\e904";
+  color:#3DB370;
+}
