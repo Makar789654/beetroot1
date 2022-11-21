@@ -1,9 +1,12 @@
 .header {max-width: 1440px;
-    margin: 25px auto;
+    margin: 25px 135px;
     display: flex;
     flex-wrap: wrap;
     justify-items: flex-start;
     
     .logo {margin: 0 6px;}
-    .logoholder {margin: 15px 6px;}
-}
+    .logoholder {margin: 15px 6px;}}
+
+// @media screen and (min-widht: 768px) {
+//    .service {background-color: aqua;
+// }}

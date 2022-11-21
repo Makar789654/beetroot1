@@ -3,14 +3,18 @@
 *::after { box-sizing: border-box;
  }
 
-body {padding: 0 135px;
+body {
     font-family: "Roboto", sans-serif;
      background: #FFFFFF;
     max-width: 1440px;
 }
+.service {
+    padding: 0 135px;
+}
 .services {
     display: flex;
     flex-wrap: wrap;
+   
     .design, .ecommerce, .aplication {
         max-width: 370px;
         max-height: 340px;
@@ -60,3 +64,7 @@ body {padding: 0 135px;
 .icon.icon-phone:hover {
     background-position: -176px -64px;
 }
+@media screen and (max-widht: 768px) {
+    .service {background-color: aqua;
+ }}
+ 

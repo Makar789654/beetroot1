@@ -1,17 +1,17 @@
 footer {max-width: 1440px;
-    padding: 25px 0;
     display: flex;
     flex-wrap: wrap;
     background: #16133D;
     margin-top: 100px;
-
-
+    padding: 0 135px;
     
     .logo {margin: -10px 6px;
     color: #EFEEF3;}
     .logoholder {margin: 15px 6px;
     display: flex;
-        a {padding-top: 5px;}}
+        a {padding-top: 5px;
+            text-decoration: none;
+         }}
 }
 ul {padding-inline-start: 0px;}
 li {display: inline-block;

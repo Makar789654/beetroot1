@@ -7,10 +7,13 @@
 }
 
 body {
-  padding: 0 135px;
   font-family: "Roboto", sans-serif;
   background: #FFFFFF;
   max-width: 1440px;
+}
+
+.service {
+  padding: 0 135px;
 }
 
 .services {
@@ -75,9 +78,13 @@ body {
   background-position: -176px -64px;
 }
 
+@media screen and (max-widht: 768px) {
+  .service {
+    background-color: aqua;
+  }
+}
 footer {
   max-width: 1440px;
-  padding: 25px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,6 +92,7 @@ footer {
       flex-wrap: wrap;
   background: #16133D;
   margin-top: 100px;
+  padding: 0 135px;
 }
 footer .logo {
   margin: -10px 6px;
@@ -98,6 +106,7 @@ footer .logoholder {
 }
 footer .logoholder a {
   padding-top: 5px;
+  text-decoration: none;
 }
 
 ul {
@@ -118,7 +127,7 @@ li {
 
 .header {
   max-width: 1440px;
-  margin: 25px auto;
+  margin: 25px 135px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
