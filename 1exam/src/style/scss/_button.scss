@@ -1,0 +1,36 @@
+.main-btn {
+    position: relative;
+    width: 213px;
+    height: 60px;
+    background-color: #5373FD;
+    border: none;
+    z-index: 0;
+
+    :hover {
+        color: #213aaa;
+    }
+
+.btn-text {
+    display: block;
+    z-index: -3;
+}
+
+    a {
+        font-family: 'Aleo';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    ::after {
+        content: url(/src/img/rectangle.svg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}

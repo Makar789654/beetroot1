@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 0;
+}
+.content {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-bg,
+.choose-bg,
+.spain-bg,
+.spain-bg-2,
+.tourists-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.pseudo-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.31em;
+}
+
+.search-btn {
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.slider {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+ul {
+    list-style: none;
+}
+ li:hover{
+    color: aqua;
+ }
+a {
+    text-decoration: none;
+}

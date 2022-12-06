@@ -1,0 +1,66 @@
+.grand-spain-holder {
+    display: flex;
+    justify-content: flex-start;
+    padding: 120px 18px;
+
+    @include media (">=768px") {
+        padding: 120px 24px;
+    }
+
+    @include media (">=1024px") {
+        padding: 220px 32px 120px;
+    }
+
+    @include media (">=1360px") {
+        padding: 220px 110px 120px;
+    }
+
+    &.reverse {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.description {
+    background-color: rgba(35, 35, 35, 0.9);
+    padding: 44px 32px;
+}
+
+.ispania {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.s-title {
+    margin-bottom: 16px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text-holder {
+    margin-bottom: 38px;
+
+    @include media (">=1024px") {
+        width: 476px;
+    }
+}
+
+.paragraph {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}

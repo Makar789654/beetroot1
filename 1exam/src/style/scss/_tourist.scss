@@ -1,0 +1,73 @@
+.tourists-holder {
+    padding: 60px 12px 120px;
+
+    @include media (">=768px") {
+        padding: 60px 24px 120px;
+    }
+
+    @include media (">=1024px") {
+        padding: 120px 32px 180px;
+    }
+
+    @include media (">=1360px") {
+        padding: 120px 110px 180px;
+    }
+
+    .text-holder {
+
+        padding: 48px 60px;
+
+        @include media (">=1024px") {
+            padding: 53px 60px 20px;
+        }
+        
+
+
+        .paragraph {
+
+            @include media (">=1024px") {
+                width: 520px;
+            }
+
+            @include media (">=1360px") {
+                width: 640px;
+            }
+        }
+    }
+
+
+}
+
+.second-title {
+    margin-bottom: 60px;
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.row {
+    background: #333333;
+
+    @include media (">=1024px") {
+        display: flex;
+    }
+
+}
+
+.sam-holder {
+    img {
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 48px;
+
+        @include media (">=1024px") {
+            height: 360px;
+            width: 340px;
+            margin: 0;
+        }
+    }
+}
